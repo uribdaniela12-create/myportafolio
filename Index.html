@@ -1,55 +1,127 @@
+html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
+    <title>Mi Portafolio</title>
+
+    <style>
+        body {
+            background-color:#d8d2c4 ;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4b2e1e;
+        }
+
+        h2 {
+            text-align: center;
+            color: #4b2e1e;
+        }
+
+        table {
+            width: 900px;
+            margin: auto;
+            border-spacing: 15px;
+        }
+
+        td {
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            border: 2px solid #4b2e1e;
+            background-color: white;
+            padding: 20px;
+        }
+
+        h3 {
+            color: #4b2e1e;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333333;
+        }
+
+        button {
+            background-color: #4b2e1e;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #6b4423;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #4b2e1e;
+        }
+    </style>
+
 </head>
 
-<body bgcolor="beige">
-    <title>MY PORTAFOLIO</title>
-    <h1 align="center" >MY PORTAFOLIO</h1>
-    <H2 align="center">Daniela Pérez Uribe</H2>
+<body>
+
+    <h1>MY PORTAFOLIO</h1>
+    <h2>Daniela Pérez Uribe</h2>
+
     <br>
-    <table border="1" align="center" style="width: 960px;" cellppadding="20">
-      
+
+    <table>
         <tr>
-            <td width="300" align="center" valign="top">
-            
-               <p> Aqui podras conocer mi experiencia laboral, estudios y habilidades</p>
-                <button >Hoja de vida</button>
-            </td>
-            <td width="300" align="center">
-              
-                <p>En esta seccion puedes descubrir quien soy</p>
-                <button >Sobre mi</button>
-            </td>
-            <td width="300" align="center">
-             
-               <p>Mis conocimientos, habilidades y herramientas</p>
-                <button >Habilidades</button>
-            </td>
-        </tr>
-        <tr>
-            <td width="300" align="center">
-               
-                <p>Conoce mis proyectos</p>
-                <button >Proyectos</button>
-            </td>
-            <td width="300" align="center">
-               
-                <p>Correo, Github, Telefono, Linkedin</p>
-                <button >Contacto</button>
-            </td>
             <td>
-              
-                <button> Detalles</button>
+                <h3>Hoja de vida</h3>
+                <p>Aquí podrás conocer mi experiencia laboral, estudios y habilidades.</p>
+                <button>Hoja de vida</button>
+            </td>
+
+            <td>
+                <h3>Sobre mí</h3>
+                <p>En esta sección puedes descubrir un poco más sobre quién soy.</p>
+                <button>Sobre mí</button>
+            </td>
+
+            <td>
+                <h3>Habilidades</h3>
+                <p>Mis conocimientos, habilidades y herramientas.</p>
+                <button>Habilidades</button>
             </td>
         </tr>
 
+        <tr>
+            <td>
+                <h3>Proyectos</h3>
+                <p>Conoce algunos de los proyectos que he realizado.</p>
+                <button>Proyectos</button>
+            </td>
 
+            <td>
+                <h3>Contacto</h3>
+                <p>Correo, GitHub, teléfono y LinkedIn.</p>
+                <button>Contacto</button>
+            </td>
+
+            <td>
+                <h3>Más información</h3>
+                <p>Puedes conocer algunos detalles adicionales sobre mí.</p>
+                <button>Detalles</button>
+            </td>
+        </tr>
     </table>
+
+    <footer>
+        <p>Portafolio personal - Daniela Pérez Uribe</p>
+    </footer>
+
 </body>
 
 </html>
